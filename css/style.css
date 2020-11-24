@@ -7,7 +7,7 @@ font-family: 'Catamaran', sans-serif; */
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(/img/pexels-nguyễn-thanh-ngọc-3995673.jpg);
+    background-image: url(../img/pexels.jpg);
     overflow: hidden;
     background-size: cover;
     display: flex;
