@@ -187,8 +187,8 @@ h2::before{
     h2::before{
         content: '';
         position: absolute;
-        left: 50%;
-        bottom: 71%;
+        left: 52%;
+        bottom: 69%;
         transform: translateX(-50%);
         height: 4px;
         width: 150px;
@@ -205,4 +205,38 @@ h2::before{
     label{
         font-size: 13px;
     }
+}
+
+
+@media only screen and (max-width: 400px){
+    .header h2{
+        font-size: 19px;
+    }
+
+    h2::before{
+        content: '';
+        position: absolute;
+        left: 52%;
+        bottom: 73%;
+        transform: translateX(-50%);
+        height: 4px;
+        width: 150px;
+        border-radius: 2px;
+        background-color: greenyellow;
+    }
+
+    .form-control label{
+        font-size: 12px;
+    }
+
+    .form-control input{
+        position: relative;
+        right: 7px;
+    }
+
+    .btn{
+        position: relative;
+        right: 10px;
+    }
+
 }
